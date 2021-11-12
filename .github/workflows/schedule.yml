@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "10 55 * * *"
+    - cron: "11 03 * * *"
 jobs:
   update-gist:
     runs-on: ubuntu-latest
